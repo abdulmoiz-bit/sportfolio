@@ -1,0 +1,89 @@
+.explore-assets {
+  margin: 5rem 2rem;
+}
+.explore-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.logos {
+  text-align: center;
+  margin: 5rem 0rem;
+  cursor: pointer;
+}
+.logos img {
+  max-width: 12vw;
+  margin: 0rem 3vw;
+}
+
+.heading-la {
+  text-align: center;
+  padding-top: 3rem;
+}
+.data-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.team-value{
+
+}
+.team-value img {
+  max-width: 10rem;
+}
+
+.valuation{
+
+}
+.valuation-span {
+  display: flex;
+}
+.valuation-span li {
+  list-style: none;
+}
+
+.initial-public{
+
+}
+.initial-public-span {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.initial-public-span li {
+  list-style: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .explore-flex {
+    flex-direction: column;
+  }
+  .explore-flex > h2 {
+    padding-top: 1rem;
+  }
+  .data-flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem; 
+  }
+  .team-value h2{
+   text-align: center;
+  }
+  .valuation h2{
+   text-align: center;
+  }
+  .initial-public{
+   min-width: max-content;
+  }
+  .initial-public h2{
+    text-align: center;
+  }
+}
+
+

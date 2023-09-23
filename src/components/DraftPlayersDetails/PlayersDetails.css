@@ -1,0 +1,162 @@
+.players-details {
+  margin: 5rem 2rem;
+  position: relative;
+}
+
+.players-slider {
+  margin-top: 4rem;
+}
+
+.players-img {
+  text-align: center;
+  margin: 5rem 0rem;
+  cursor: pointer;
+}
+
+.players-img img {
+  max-width: 12vw;
+  margin: 0rem 3vw;
+}
+
+.demo-orderdetails {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-top: 4rem;
+  justify-content: space-between;
+  gap: .5rem;
+}
+
+.demo-orderdetails-image {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  flex-basis: 32vw;
+}
+
+.demo-orderdetails-image img {
+  max-width: 30vw;
+}
+
+.demo-orderdetails-values {
+  display: flex;
+  padding: 2rem;
+  min-width: max-content;
+}
+
+.demo-orderdetails-values li {
+  list-style: none;
+  line-height: 2rem;
+}
+
+.second-column {
+  position: relative;
+  flex-basis: 32vw;
+}
+
+.second-column-buttons button {
+  background-color: rgb(224, 221, 221);
+  cursor: pointer;
+  padding: 0.4rem 2rem;
+  border: black;
+}
+
+.second-column-dropdown {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0rem;
+}
+
+.second-column-dropdown select {
+  padding: 0.2rem 2rem;
+  background-color: rgb(224, 221, 221);
+  border: black;
+}
+
+.second-column-dvalue {
+}
+
+.second-column-dollar {
+  display: flex;
+  align-items: center;
+}
+
+.second-column-values {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 2rem;
+}
+
+.second-column-values img {
+  margin-left: 1rem;
+  max-height: 2rem;
+  max-width: 12rem;
+}
+
+.second-column > p {
+  position: absolute;
+  bottom: 2px;
+}
+
+.third-column {
+  position: relative;
+  flex-basis: 32vw;
+}
+
+.third-column-lakers {
+  margin-top: 3.5rem;
+  background-color: rgb(224, 221, 221);
+  display: inline-block;
+  padding: 0.2rem 1rem;
+  
+}
+
+.third-column-zeros {
+  margin-top: 3rem;
+}
+
+.third-column-values {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 2rem;
+}
+
+.third-column-values img {
+  margin-left: 1rem;
+  max-height: 2rem;
+  max-width: 12rem;
+}
+
+.third-column > p {
+  position: absolute;
+  bottom: 2px;
+}
+
+@media only screen and (max-width: 992px) {
+  .demo-orderdetails {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .demo-orderdetails-image {
+    align-self: center;
+    min-width: max-content;
+    text-align: center;
+  }
+  .demo-orderdetails-image img {
+    max-width: 18rem;
+    
+  }
+
+  .second-column {
+    min-width: max-content;
+    align-self: center;
+    min-height: 28rem;
+  }
+
+  .third-column {
+    min-width: max-content;
+    align-self: center;
+    min-height: 28rem;
+  }
+}
