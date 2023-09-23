@@ -29,7 +29,6 @@
 
 .demo-orderdetails-image {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  flex-basis: 32vw;
 }
 
 .demo-orderdetails-image img {
@@ -49,7 +48,7 @@
 
 .second-column {
   position: relative;
-  flex-basis: 32vw;
+ 
 }
 
 .second-column-buttons button {
@@ -99,7 +98,7 @@
 
 .third-column {
   position: relative;
-  flex-basis: 32vw;
+  
 }
 
 .third-column-lakers {
@@ -111,7 +110,7 @@
 }
 
 .third-column-zeros {
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .third-column-values {
@@ -144,8 +143,7 @@
     text-align: center;
   }
   .demo-orderdetails-image img {
-    max-width: 18rem;
-    
+    max-width: 18rem; 
   }
 
   .second-column {
