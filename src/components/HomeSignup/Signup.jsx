@@ -5,11 +5,13 @@ const Signup = () => {
     return (
         <div className='text-content'>
             <div className='first'>
-                <h1> PHYSICAL </h1>
-                <p>There hasn’t been a transparent, easy way to invest in sports until now. We partner with the sports teams to tokenize ownership and issue tokens in the form of shares
+                <h1 style={{fontSize: "3vw"}}> PHYSICAL </h1>
+                <p>
+                    There hasn’t been a transparent, easy way to invest in sports until now. We partner with the sports teams to tokenize ownership and issue tokens in the form of shares
                     via an Initial Public Offering (IPO)
                 </p>
-                <p>  In essence, an IPO means that a sports team’s ownership is transitioning from private ownership to public
+                <p>
+                    In essence, an IPO means that a sports team’s ownership is transitioning from private ownership to public
                     ownership - “going public”</p>
                 <p>
                     Let’s play together as a team to make ownership accessible for all, not just the top dogs.

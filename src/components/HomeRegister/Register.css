@@ -5,74 +5,65 @@
   justify-content: space-between;
 }
 .how {
-  min-width: 50vw;
+  height: 100vh;
+  min-width: 45vw;
   background-color: blue;
   color: white;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
 .wrap-content {
-  min-width: 50vw;
+  height: 100vh;
+  min-width: 45vw;
+  text-align: center;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  margin: 5rem 0rem;
+  /*transform: translate(-50%, -50%);*/
 }
 
-
 .register {
-  padding: 1rem 0;
-  max-width: 90vw;
+  
 }
 
 .register > p {
-  padding: 2rem 0rem;
+  
 }
 
 .draft {
-  padding: 1rem 0;
-  max-width: 90vw;
+  
 }
-
 .draft > p {
-  padding: 2rem 0rem;
 }
 .exchange {
-  padding: 1rem 0;
-  max-width: 90vw;
+  
 }
-
 .exchange > p {
-  padding: 2rem 0rem;
 }
 .register img {
-  margin-bottom: 1rem;
   max-width: 5vw;
 }
 .draft img {
-  margin-bottom: 1rem;
   max-width: 5vw;
 }
 .exchange img {
-  margin-bottom: 1rem; 
   max-width: 5vw;
 }
 
 @media only screen and (max-width: 992px) {
   .how {
+    max-height: 50vh;
     min-width: 100vw;
     padding: 5rem 0rem;
   }
   .wrap-content {
     min-width: 100vw;
+    text-align: center;
   }
-  
+
   .register img {
     max-width: 10vw;
   }
@@ -82,5 +73,4 @@
   .exchange img {
     max-width: 10vw;
   }
-  
 }

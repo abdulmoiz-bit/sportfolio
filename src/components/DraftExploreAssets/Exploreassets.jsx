@@ -32,35 +32,6 @@ const Exploreassets = () => {
         <h1>EXPLORE ASSETS</h1>
         <h2>NBA | NFL | NHL</h2>
       </div>
-      <div className='logos'>
-        <Slider {...settings}>
-
-          <img src={logo1} />
-
-          <img src={logo2} />
-
-          <img src={logo3} />
-
-          <img src={logo4} />
-
-          <img src={logo5} />
-
-          <img src={logo6} />
-
-          <img src={logo7} />
-
-          <img src={logo2} />
-
-          <img src={logo9} />
-
-          <img src={logo3} />
-
-          <img src={logo11} />
-
-        </Slider>
-
-      </div>
-
       <div className='heading-la'>
         <h1><span style={{ color: "purple" }}>LOS ANGELES</span> <span style={{ color: "orange", paddingLeft: "1rem" }}>LAKERS</span></h1>
         <h2>EST. 1947 &nbsp; CRYPTO ARENA</h2>

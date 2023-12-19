@@ -19,18 +19,19 @@ const Register = () => {
                             and meet the eligibility requirements.</p>
                     </div>
                     <div className='draft'>
-                    <img src={draft} alt="" />
+                        <img src={draft} alt="" />
                         <h2>DRAFT</h2>
                         <p>After regulatory qualifications, We open an <br />
                             “Initial Public Offering” where you can <br />
                             purchase ownership. </p>
                     </div>
                     <div className='exchange'>
-                    <img src={exchange} alt="" />
+                        <img src={exchange} alt="" />
                         <h2>EXCHANGE</h2>
                         <p>A dynamic marketplace to buy and sell your holdings. </p>
                     </div>
                 </div>
+
             </div>
         </div>
     )

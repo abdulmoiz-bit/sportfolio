@@ -8,18 +8,17 @@ import four from "../../assets/images/four.png";
 import five from "../../assets/images/five.png";
 import dollarlogo from "../../assets/images/dollarlogo.png"
 import value from "../../assets/images/value.png"
-import Slider from "react-slick";
+//import Slider from "react-slick";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 
 const PlayersDetails = () => {
-  const settings = {
-    className: "center",
-    centerMode: true,
-    infinite: true,
-    centerPadding: "60px",
-    slidesToShow: 4,
-    speed: 500
-  };
+  
   return (
     <div className="players-details">
       <h1>
@@ -28,30 +27,26 @@ const PlayersDetails = () => {
       <div className="players-slider">
         <h2>Current Active Roaster 2022-23</h2>
       </div>
+
       <div className="players-img">
-        <Slider {...settings}>
-
-          <img src={one} />
-
-          <img src={two} />
-
-          <img src={three} />
-
-          <img src={four} />
-
-          <img src={five} />
-
-          <img src={one} />
-
-          <img src={two} />
-
-          <img src={three} />
-
-          <img src={four} />
-
-          <img src={five} />
-
-        </Slider>
+        <Swiper
+           modules={[Navigation, A11y]}
+           spaceBetween={40}
+           slidesPerView={4}
+           navigation
+           pagination={{ clickable: true }}
+        >
+          <SwiperSlide> <img src={one} /></SwiperSlide>
+          <SwiperSlide> <img src={two} /></SwiperSlide>
+          <SwiperSlide> <img src={three} /></SwiperSlide>
+          <SwiperSlide> <img src={four} /></SwiperSlide>
+          <SwiperSlide> <img src={five} /></SwiperSlide>
+          <SwiperSlide> <img src={one} /></SwiperSlide>
+          <SwiperSlide> <img src={two} /></SwiperSlide>
+          <SwiperSlide> <img src={three} /></SwiperSlide>
+          <SwiperSlide> <img src={four} /></SwiperSlide>
+          <SwiperSlide> <img src={five} /></SwiperSlide>
+        </Swiper>
       </div>
 
 
@@ -77,7 +72,7 @@ const PlayersDetails = () => {
 
         <div className="second-column">
           <div className="second-column-buttons">
-            <button style={{backgroundColor: "black", color: "white"}}>Buy</button>
+            <button style={{ backgroundColor: "black", color: "white" }}>Buy</button>
             <button>Sell</button>
             <button>Swap</button>
           </div>
@@ -87,14 +82,14 @@ const PlayersDetails = () => {
             </select>
           </div>
           <div className="second-column-dvalue">
-           <h1 style={{fontSize: "5rem"}}> 0 <span style={{color: "blue", fontWeight: "100"}}>|</span> <span style={{color: "rgba(0, 0, 0, 0.2)"}}>USD</span> </h1>
+            <h1 style={{ fontSize: "5rem" }}> 0 <span style={{ color: "blue", fontWeight: "100" }}>|</span> <span style={{ color: "rgba(0, 0, 0, 0.2)" }}>USD</span> </h1>
             <div className="second-column-dollar">
               <img src={dollarlogo} />
-              <p style={{color: "blue", fontSize: "14px"}}>0.00 Token Value in USD Coin</p>
+              <p style={{ color: "blue", fontSize: "14px" }}>0.00 Token Value in USD Coin</p>
             </div>
           </div>
           <div className="second-column-values">
-            <span style={{fontSize: "3rem"}}>$80.74</span>
+            <span style={{ fontSize: "3rem" }}>$80.74</span>
             <img src={value} />
           </div>
           <p>Current Market Price</p>
@@ -106,10 +101,10 @@ const PlayersDetails = () => {
             <p>Your LAKERS Ownership %</p>
           </div>
           <div className="third-column-zeros">
-            <h1 style={{fontSize: "3rem"}}>37% <span style={{color: "blue", fontWeight: "100"}}>|</span><span style={{fontWeight: "100"}}>$0,00.00</span></h1>
+            <h1 style={{ fontSize: "3rem" }}>37% <span style={{ color: "blue", fontWeight: "100" }}>|</span><span style={{ fontWeight: "100" }}>$0,00.00</span></h1>
           </div>
           <div className="third-column-values">
-          <span style={{fontSize: "3rem"}}>$80.74</span>
+            <span style={{ fontSize: "3rem" }}>$80.74</span>
             <img src={value} />
           </div>
           <p>Current Market Price</p>
