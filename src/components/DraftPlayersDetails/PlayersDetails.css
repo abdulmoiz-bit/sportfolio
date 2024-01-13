@@ -21,13 +21,13 @@
 .demo-orderdetails {
   display: flex;
   flex-wrap: nowrap;
-  flex-direction: row;
   margin-top: 4rem;
   justify-content: space-between;
   gap: .5rem;
 }
 
 .demo-orderdetails-image {
+  flex: 1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -47,6 +47,7 @@
 }
 
 .second-column {
+  flex: 1;
   position: relative;
 }
 
@@ -96,8 +97,8 @@
 }
 
 .third-column {
+  flex: 1;
   position: relative;
-  
 }
 
 .third-column-lakers {

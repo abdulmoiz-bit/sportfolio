@@ -10,7 +10,7 @@
 }
 
 .draft-text {
-  max-width: 45vw;
+  flex: 1;
 }
 .draft-text h1 {
   margin-bottom: 1rem;
@@ -20,7 +20,7 @@
   padding: 2rem 0rem;
 }
 .draft-image{
-  max-width: 50vw;
+  flex:1;
 }
 .draft-image img {
   max-width: 45vw;

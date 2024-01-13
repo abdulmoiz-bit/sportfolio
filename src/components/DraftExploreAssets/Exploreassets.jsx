@@ -33,7 +33,7 @@ const Exploreassets = () => {
         <h2>NBA | NFL | NHL</h2>
       </div>
       <div className='heading-la'>
-        <h1><span style={{ color: "purple" }}>LOS ANGELES</span> <span style={{ color: "orange", paddingLeft: "1rem" }}>LAKERS</span></h1>
+        <h1><span style={{ color: "purple" }}>LOS ANGELES</span> &nbsp; <span style={{ color: "orange"}}>LAKERS</span></h1>
         <h2>EST. 1947 &nbsp; CRYPTO ARENA</h2>
       </div>
       <div className='data-flex'>

@@ -5,7 +5,6 @@ import logoimage from "../../assets/images/logoimage.png"
 
 const Header = () => {
     return (
-        <div className="home-header">
             <div className="home-navbar">
                 <div className="home-logo" style={{ marginTop: "1rem" }}>
                     <img src={logoimage} />
@@ -24,7 +23,6 @@ const Header = () => {
                 </div>
 
             </div>
-        </div>
     );
 }
 

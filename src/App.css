@@ -4,16 +4,43 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 body {
+  box-sizing: border-box;
   overflow-x: hidden;
   background-color: white;
   font-family: Roboto;
-  font-size: 20px;
 }
 
 html {
   overflow-x: hidden;
+}
+
+@media screen and (max-width: 480px) {
+  p{
+    font-size: 14px;
+  }
+  h1{
+    font-size: 27px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+  p{
+    font-size: 16px;
+  }
+  h1{
+    font-size: 32px;
+  }
+ 
+}
+@media only screen and (min-width: 901px) {
+  p{
+    font-size: 18px;
+    /* 18-20 px */
+  }
+  h1{
+    font-size: 35px;
+  }
 }

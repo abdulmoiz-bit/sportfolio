@@ -6,7 +6,7 @@
 }
 .how {
   height: 100vh;
-  min-width: 45vw;
+  flex: 1;
   background-color: blue;
   color: white;
   display: flex;
@@ -17,7 +17,7 @@
 
 .wrap-content {
   height: 100vh;
-  min-width: 45vw;
+  flex: 1;
   text-align: center;
   display: flex;
   align-items: center;

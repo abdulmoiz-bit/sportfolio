@@ -9,25 +9,31 @@
   padding: 3rem 2rem;
 }
 
-
+.footer-logo {
+  flex: 1;
+}
 .footer-logo img {
   background-color: blue;
   max-width: 15vw;
   border-radius: 50%;
 }
 
-.footer-logo>p {
+.footer-logo > p {
   padding-top: 4rem;
 }
 
-
+.footer-image {
+  flex: 1;
+}
 .footer-image img {
   padding-top: 6rem;
   max-width: 30vw;
 }
 
-
-.footer-questions>p {
+.footer-questions {
+  flex: 1;
+}
+.footer-questions > p {
   padding-top: 3.6rem;
 }
 

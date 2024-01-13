@@ -5,8 +5,7 @@ import logoimage from "../../assets/images/logoimage.png"
 
 const DraftHeader = () => {
     return (
-        <div className="home-header" style={{backgroundColor: "rgb(4, 131, 6)"}}>
-            <div className="home-navbar">
+            <div className="home-navbar" style={{backgroundColor: "rgb(4, 131, 6)"}}>
                 <div className="home-logo" style={{ marginTop: "1rem" }}>
                     <img src={logoimage} />
                     <h2>Sportfolio</h2>
@@ -24,7 +23,6 @@ const DraftHeader = () => {
                 </div>
 
             </div>
-        </div>
     );
 }
 
