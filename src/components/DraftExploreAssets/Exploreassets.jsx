@@ -12,28 +12,40 @@ import logo8 from "../../assets/images/logo8.png"
 import logo9 from "../../assets/images/logo9.png"
 import logo10 from "../../assets/images/logo10.png"
 import logo11 from "../../assets/images/logo11.png"
-import Slider from "react-slick"
-
 
 
 
 const Exploreassets = () => {
-  const settings = {
-    className: "center",
-    centerMode: true,
-    infinite: true,
-    centerPadding: "60px",
-    slidesToShow: 5,
-    speed: 500,
-  };
+
   return (
     <div className='explore-assets'>
       <div className='explore-flex'>
         <h1>EXPLORE ASSETS</h1>
         <h2>NBA | NFL | NHL</h2>
       </div>
+      <div className='logos'>
+
+        <div><img src={logo1} /></div>
+
+        <div><img src={logo2} /></div>
+
+        <div><img src={logo3} /></div>
+
+        <div><img src={logo4} /></div>
+
+        <div><img src={logo5} /></div>
+
+        <div><img src={logo6} /></div>
+
+        <div><img src={logo7} /></div>
+
+        <div><img src={logo9} /></div>
+
+        <div><img src={logo11} /></div>
+
+      </div>
       <div className='heading-la'>
-        <h1><span style={{ color: "purple" }}>LOS ANGELES</span> &nbsp; <span style={{ color: "orange"}}>LAKERS</span></h1>
+        <h1><span style={{ color: "purple" }}>LOS ANGELES</span> &nbsp; <span style={{ color: "orange" }}>LAKERS</span></h1>
         <h2>EST. 1947 &nbsp; CRYPTO ARENA</h2>
       </div>
       <div className='data-flex'>
@@ -44,7 +56,7 @@ const Exploreassets = () => {
           <img style={{ paddingTop: "1rem" }} src={laker} />
         </div>
         <div className='valuation'>
-          <h2>VALUATION <br/> BREAKDOWN</h2>
+          <h2>VALUATION <br /> BREAKDOWN</h2>
           <div className="valuation-span" style={{ padding: "2rem 0rem", lineHeight: "3rem" }}>
             <ul>
               <li>Stadium</li>
@@ -61,7 +73,7 @@ const Exploreassets = () => {
           </div>
         </div>
         <div className='initial-public'>
-          <h2>INITIAL PUBLIC <br />OFFERING DETAILS</h2>
+          <h2>INITIAL PUBLIC <br/>OFFERING DETAILS</h2>
           <div className="initial-public-span" style={{ padding: "2rem 0rem", lineHeight: "3rem" }}>
             <ul>
               <li>Market Capitalization</li>

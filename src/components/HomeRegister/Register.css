@@ -5,7 +5,6 @@
   justify-content: space-between;
 }
 .how {
-  height: 100vh;
   flex: 1;
   background-color: blue;
   color: white;
@@ -16,7 +15,6 @@
 }
 
 .wrap-content {
-  height: 100vh;
   flex: 1;
   text-align: center;
   display: flex;
@@ -26,51 +24,53 @@
 }
 
 .register {
-  
+  margin-bottom: 2rem;
 }
 
 .register > p {
-  
+  margin-top: 1rem;
 }
 
 .draft {
-  
+  margin-bottom: 2rem;
 }
 .draft > p {
+  margin-top: 1rem;
 }
 .exchange {
-  
+  margin-bottom: 2rem;
 }
 .exchange > p {
+  margin-top: 1rem;
 }
 .register img {
-  max-width: 5vw;
+ max-width: 4rem;
 }
 .draft img {
-  max-width: 5vw;
+  max-width: 4rem;
 }
 .exchange img {
-  max-width: 5vw;
+  max-width: 4rem;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
   .how {
     max-height: 50vh;
     min-width: 100vw;
     padding: 5rem 0rem;
   }
   .wrap-content {
-    min-width: 100vw;
+   margin-top: 3rem;
     text-align: center;
   }
 
   .register img {
-    max-width: 10vw;
+    width: ;
   }
   .draft img {
-    max-width: 10vw;
+   
   }
   .exchange img {
-    max-width: 10vw;
+   
   }
 }

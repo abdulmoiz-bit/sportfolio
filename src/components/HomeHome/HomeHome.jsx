@@ -10,7 +10,7 @@ const HomeHome = () => {
                 <p>The first dynamic exchange to buy ownership in your favorite sports team, just like stocks. </p>
                 <p>Start building your Sportfolio. Secure Sales. Low Fees.</p>
                 <button className='waitlist-btn'>WAITLIST</button> <br></br>
-                <button className='learnmore-btn' style={{backgroundColor: "blue", color: "white"}}>LEARN MORE</button>
+                <button className='learnmore-btn'>LEARN MORE</button>
             </div>
 
             <div className='home-image'>

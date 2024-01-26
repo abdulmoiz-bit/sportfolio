@@ -19,19 +19,18 @@ const Signup = () => {
 
                 <div className='news-letter'>
                     <input type="text" placeholder='Email@gmail.com' />
-                    <button> Sign Up</button>
+                    <button style={{marginLeft: "1rem"}}> Sign Up</button>
                 </div>
             </div>
 
             <div className='second'>
-                    <h1>TOKENIZATION <br />
-                        OF AN ASSET</h1>
+                    <h1>TOKENIZATION  OF AN ASSET</h1>
                     <p>Tokenized assets are blockchain-based tokens that represent the ownership over a particular physical and digital
                         assets. Smart contract based automation enables fractional asset ownership, peer-to-peer asset trading,
                         ownership traceability, compliance, etc.
                     </p>
 
-                    <h1>INTRINSIC</h1>
+                    <h1 style={{marginTop: "3rem"}}>INTRINSIC</h1>
                     <p>Each team roster is placed into our proprietary algorithm to calculate the intrinsic value of an athlete based
                         on the real game stats. After that, via our secure draft portal investors can buy shares of each athlete to
                         build their Sportfolio, a sports portfolio.

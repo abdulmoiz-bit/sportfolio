@@ -20,27 +20,51 @@ html {
 
 @media screen and (max-width: 480px) {
   p{
-    font-size: 14px;
+    font-size: 16px;
+  }
+  li{
+    font-size: 16px;
   }
   h1{
     font-size: 27px;
   }
+  h2{
+    font-size: 25px;
+  }
 }
-@media only screen and (min-width: 481px) and (max-width: 900px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   p{
-    font-size: 16px;
+    font-size: 18px;
+  }
+  li{
+    font-size: 18px;
   }
   h1{
     font-size: 32px;
+  }
+  h2{
+    font-size: 30px;
   }
  
 }
 @media only screen and (min-width: 901px) {
   p{
-    font-size: 18px;
+    font-size: 20px;
     /* 18-20 px */
+  }
+  li{
+    font-size: 20px;
+  }
+  a{
+    font-size: 20px;
+  }
+  button{
+    font-size: 20px;
   }
   h1{
     font-size: 35px;
+  }
+  h2{
+    font-size: 32px;
   }
 }

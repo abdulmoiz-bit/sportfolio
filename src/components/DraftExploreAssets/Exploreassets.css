@@ -8,17 +8,19 @@
   align-items: center;
   text-align: center;
 }
-/*
+
 .logos {
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
   margin: 5rem 0rem;
   cursor: pointer;
 }
 .logos img {
-  max-width: 12vw;
-  margin: 0rem 3vw;
+  max-width: 8rem;
 }
-*/
+
 .heading-la {
   text-align: center;
   padding-top: 3rem;
@@ -37,9 +39,11 @@
 .team-value img {
   max-width: 10rem;
 }
-
 .valuation{
   flex: 1;
+  display: flex;
+  flex-direction: column;
+
 }
 .valuation-span {
   display: flex;
@@ -49,7 +53,8 @@
 }
 
 .initial-public{
-   flex: 1;
+   display: flex;
+   flex-direction: column;
 }
 .initial-public-span {
   display: flex;
@@ -59,7 +64,7 @@
   list-style: none;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
   .explore-flex {
     flex-direction: column;
   }
@@ -70,6 +75,9 @@
     flex-direction: column;
     align-items: center;
     gap: 3rem; 
+  }
+  .team-value{
+    text-align: center;
   }
   .team-value h2{
    text-align: center;
@@ -84,5 +92,3 @@
     text-align: center;
   }
 }
-
-

@@ -14,7 +14,6 @@
 }
 .draft-text h1 {
   margin-bottom: 1rem;
-  font-size: 6vw;
 }
 .draft-text > p {
   padding: 2rem 0rem;
@@ -27,14 +26,14 @@
 }
 
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
   .draft-flex-container {
     text-align: center;
     justify-content: center;
     padding: 2rem 0;
   }
   .draft-text h1 {
-    font-size: 10vw;
+ 
   }
   .draft-text {
     max-width: 100vw;
